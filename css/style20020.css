@@ -239,7 +239,47 @@ text-align: center;
 font-size: 30px; 
 font-family: 'Roboto', sans-serif;      
 color:white; 
+}  
+
+.cool2 { 
+    height:450px;
+     width: 450px; 
+     border:1px solid #5623E2; 
+     border-radius: 10px; 
+     margin:0 auto; 
+     margin-top:8vh; 
+}    
+
+.cool2 p { 
+    color:#B43387;  
+    font-size: 20px; 
+   font-family: 'Roboto', sans-serif;      
+   text-align: center;
 } 
+
+
+.forms2 { 
+    width: 300px; 
+    height:45px; 
+    margin-left:1vw;  
+    background-color: #161617; 
+    color: white; 
+    border:1px solid #F16D61 ;
+}  
+
+::placeholder { 
+    color:white; 
+    background-color: black;
+}  
+
+.iets { 
+border: 1px solid #F16D61 ;  
+color: #B43387; 
+}
+
+
+
+
 
 
 
