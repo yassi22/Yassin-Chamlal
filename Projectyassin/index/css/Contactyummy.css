@@ -1,0 +1,461 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+
+body {
+  background-image: url("https://images.wallpaperscraft.com/image/china_block_street_building_road_10772_1920x1080.jpg");
+  background-size:cover; 
+
+}
+
+
+body {margin: 0;}
+
+ul.topnav {
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #ffcf40;
+list-style-type:none;
+font-size:16px;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: black;
+	margin-left:8.5vw;
+    padding: 10px 1px;
+    text-decoration: none;
+	list-style-type:none;
+	transition: color 0.4s ease 0s;
+	transition-property: color;
+	transition-duration: 0.4s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+	text-shadow: 1px 1px ffcf40;
+	font-size: 20px;
+}
+
+.home {
+color:#ffcf40;
+font-size:50px;
+text-align:center;
+text-shadow: 2px 2px 2px black;
+}
+
+.home1 {
+	color:#ffcf40;
+	font-size:35px;
+text-align:center;
+	text-shadow: 2px 2px 2px black;
+
+}
+
+.rotateimg180 {
+  -webkit-transform:rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 4rem;
+  min-height: 100%;
+}
+
+.demo {
+  margin: 0 auto;
+  padding-top: 64px;
+  max-width: 640px;
+  width: 94%;
+}
+
+.demo h1 {
+  margin-top: 0;
+}
+
+.footer676767676 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #ffcf40;
+  text-align: center;
+  font-size:23px;
+}
+
+.text {
+	color: #ffcf40;
+	text-shadow: 1px 1px 1px black;
+	text-align:center;
+}
+
+.contact{
+	font-family: Montserrat, sans-serif;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute;
+	top:5vh; 
+	right:11vw;
+	color: black;
+	text-transform: uppercase;
+}
+
+.openingstijden {
+	font-family: Montserrat, sans-serif;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute;
+	top:4.7vh; 
+	left:8vw;
+	color:black;
+	text-transform: uppercase;
+	
+
+}
+
+.socialmedia {
+	font-family: Montserrat, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute; 
+	left: 50%; 
+	margin-left:-68px;
+	top:5vh;
+	color: black;
+}
+
+
+li a {
+	text-decoration: none;
+list-style-type: none;
+color:black;
+}
+
+.contact2 {
+	float:right;
+
+}
+
+ul.topnav li a:hover:not(.active) {background-color: red;}
+
+ul.topnav li.right {float: right;}
+
+
+.blocktest2 { 
+background:  rgb(228, 175, 1);
+border: red; 
+padding:5px; 
+width:400px;
+text-align: left;
+margin-left:-50%; 
+margin:35vw;
+margin-top:8vh;
+border-radius: 20px;
+height:400px;
+font-size:14px; 
+font-family: 'Roboto', sans-serif;
+}
+
+h2 { 
+    color:#ffcf40;
+    font-size:50px;
+    text-align:center;
+	text-shadow: 2px 2px 2px black;  
+	margin-top:0vh;
+} 
+
+h3 { 
+    color:black;
+    font-size:18px;
+    text-align:center;
+} 
+
+form{ 
+margin-top: -4vh;
+width:350px;
+margin-left:auto; 
+display:block;
+margin-right:auto; 
+}
+#item-aanvraag input {
+	width: 20vw;
+	margin: 1vh;
+	font-size: 1.2rem;
+	margin-left:-1vw;
+	
+}
+
+.forms{ 
+	border: 2px solid red;
+	background-color:rgba(255, 207, 64, 1);
+	color: black; 
+	
+}
+::placeholder {
+	color:black;
+  }
+  
+  .contact{
+	font-family: Montserrat, sans-serif;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute;
+	top:7.5vh; 
+	right:11vw;
+	color: black;
+	text-transform: uppercase;
+}
+
+.openingstijden {
+	font-family: Montserrat, sans-serif;
+	text-shadow: 1px 1px ffcf40;
+	font-size:14px; 
+	position: absolute;
+	top:12vh; 
+	left:8vw;
+	color:black;
+	text-transform: uppercase;
+	
+
+}
+
+.socialmedia {
+	font-family: Montserrat, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute; 
+	left: 50%; 
+	margin-left:-68px;
+	top:7.5vh;
+	color: black;
+}
+
+
+li a {
+	text-decoration: none;
+list-style-type: none;
+color:black;
+}
+
+.contact2 {
+	float:right;
+
+}
+
+ul.topnav li a:hover:not(.active) {background-color: red;}
+
+ul.topnav li.right {float: right;}
+
+
+.neemcontact { 
+	text-align: center;
+	font-size:20px;
+	font-family: Montserrat, sans-serif;
+	text-shadow: 1px 1px ffcf40;
+	text-transform:uppercase;
+}
+
+section{
+  text-align:center;
+}
+.footer #button{
+	width:35px;
+	height:35px;
+	border: #cc0707 12px solid;
+	border-radius:35px;
+	margin:0 auto;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+	width:35px;
+	height:35px;
+	border: rgb(228, 175, 1) 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+	left:0;
+	position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	z-index:999;
+}
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 14em;
+}
+.footer #container{
+	margin-top:5px;
+	width:100%;
+   height:200px;
+  position:relative;
+  top:0;
+  left:0;
+	background: #ffcf40;
+	text-align:center;
+}
+.footer #cont{
+  position:relative;
+  top:-45px;
+  right:190px;
+	width:150px;
+	height:auto;
+	margin:0 auto;
+}
+.footer_center{
+	width:500px;
+	float:left;
+  text-align:center;
+}
+.footer h3{
+	font-family: 'Helvetica';
+	font-size: 30px;
+	font-weight: 100;
+	margin-top:70px;
+	margin-left:40px;
+}
+.openingstijden1 {
+	font-family: Montserrat, sans-serif;
+	text-shadow: 1px 1px ffcf40;
+	font-size:14px; 
+	position: absolute;
+	top:12vh; 
+	left:20vw;
+	color:black;
+	text-transform: uppercase;
+}
+
+.textopening{
+		font-family: Montserrat, sans-serif;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute;
+	top:5vh; 
+	left:12vw;
+	color:black;
+	text-transform: uppercase;
+}
+
+.social a {
+	text-decoration:none;
+	list-style-type:none;
+	margin-left:-3vw;
+}
+
+.Googlemaps { 
+	position: absolute;
+    left:35vw;
+	top:82vh;
+	border-radius: 10%;
+} 
+  
+@media only screen and (max-width: 414px) { 
+	.Googlemaps { 
+		display:none; 
+	}
+	#container{ 
+		display:none; 
+	} 
+	.footer{ 
+		display:none; 
+	}
+	form{ 
+		margin-top: -4vh;
+		width:350px;
+		margin-left:auto; 
+		display:block;
+		margin-right:auto; 
+		}
+	#item-aanvraag input {
+		width: 20vw;
+		margin: 1vh;
+		font-size: 1rem;
+		
+	} 
+	@media only screen and (max-width: 834px) { 
+		.Googlemaps { 
+			display:none; 
+		}
+		#container{ 
+			display:none; 
+		}
+		.footer{ 
+			display:none; 
+		}
+		form { 
+			margin-top: -4vh;
+			width:500px;
+			margin-left:4vw; 
+			display:block;
+			margin-right:auto; 
+			}
+		#item-aanvraag input {
+			margin: 1vh;
+			font-size: 1.2rem; 
+			
+		} 
+		ul.topnav {
+			font-style: normal;
+			font-weight: normal;
+			font-stretch: normal;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #ffcf40;
+			list-style-type:none;
+			font-size:10px;
+			}
+	} 
+	@media only screen and (min-width: 1920px){ 
+		.footer { 
+			display:block; 
+		} 
+		#container{ 
+			display:block; 
+		} }}

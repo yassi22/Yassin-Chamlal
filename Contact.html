@@ -10,7 +10,15 @@
 	<title>Yassin Chamlal</title>
 	<link rel="stylesheet" type="text/css" href="css/style20020.css">
 </head>
-
+<script>  
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script> 
 <body>
 	<header> 
 		<nav id="item-navigatie"> 
@@ -20,8 +28,21 @@
 		<li> <a href="Portfolio.html">Mijn Werk</a></li> 
 		<li> <a href="Contact.html">Contact</a> </li> 
 		</ul>  
-		<img src="img/test.png" class="test"> 
-	</nav>    
+    </nav>   
+    <section> 
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="Index.html">Home</a>
+			<a href="Over Mij.html">About</a>
+			<a href="Portfolio.html">Mijn Werk</a>
+			<a href="Contact.html">Contact</a>
+		  </div>  
+		  <span class="menuknop" onclick="openNav()">&#9776;</span>
+		  </section>
+	<section>    
+	<a href="Index.html">
+		<img src="img/test.png" class="test" alt="logo">  
+		</a>    
 	</header>
 	<main> 
 	<section> 

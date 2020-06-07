@@ -1,0 +1,108 @@
+
+h1 {
+		color: black;
+		text-align: center;
+}
+
+h3 {
+	color: black;
+}
+
+p{
+	color: black;
+	font-family:;
+	font-size: 40px;
+	text-align: center;
+}
+
+	body {
+background: rgb(14,103,139);
+background: linear-gradient(90deg, rgba(14,103,139,1) 15%, rgba(12,77,165,1) 48%, rgba(0,212,255,1) 93%);
+}
+
+h1 {
+  background-color:;
+}
+
+h3 {
+	color: red;
+}
+
+div {
+  background-color: #d5f4e6;
+}
+
+span {
+  background-color: #f18973;
+}
+
+h1.intro {
+  color: black;
+}
+
+p.important {
+  color: yellow;
+}
+
+li{
+	width: 10vw;
+	position: relative;
+	left: -33vw;
+	top: -2vw;
+	float: left;
+}
+
+ ul{
+	 list-style: none;
+ }
+ 
+ li a{
+	 text-decoration: none;
+ }
+ 
+ #item-hamburgermenu {
+	 font-size: 1.5rem;
+	 position: fixed;
+	 top: -10vh;
+	 left: 2vw;
+ }
+ 
+ #item-hamburgermenu ul {
+	 position: fixed;
+	 top: 4vh;
+	 right: 30vw;
+ }
+ 
+ a:link, a:visited, a:active{
+    color: black;
+	font-family:
+}
+ a:hover {
+    color:#fc0303;
+}
+
+a.b {
+  font-family: Arial Black, Helvetica, sans-serif;
+  font-size: 17px;
+}
+.middetekst{
+	font-size:3vh;
+}
+.tekstlink{
+	font-size:3vh;
+	
+}
+.tekstlink{
+	text-decoration: none;
+	
+}
+.tekstlink, a:link, a:visited, a:active{
+ color: black;
+
+}
+.tekstlink, a:hover {
+	color: gray;
+}
+.disclaimer{
+	font-size:10px;
+}

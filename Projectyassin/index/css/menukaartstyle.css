@@ -1,0 +1,1007 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+
+@media only screen and (max-width: 900px) {
+        
+body {
+  background-image: url("https://images.wallpaperscraft.com/image/china_block_street_building_road_10772_1920x1080.jpg");
+}
+
+.submenu {
+    width: 90vw;
+    display: inline-block;
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+    float: left;
+    background-color: rgb(255, 207, 64,0.9);
+    border: 3px solid black;
+    border-radius: 2%;
+    font-family: Montserrat, sans-serif;
+}
+
+.submenu h1 {
+    margin: 0;
+    font-size: 2rem;
+    margin-left: 2vw;
+}
+
+.size {
+    list-style: none;
+    width: 65vw; 
+    float: right;
+}
+
+.size li {
+    float: left;
+    font-size: 1.2rem;
+    margin-right: 2vw;
+}
+
+.gerechtimg {
+    width: 120px;
+    height: 120px;
+    border: 3px solid black;
+    display:inline-block;
+    margin-left: 3vw;
+}
+
+.gerechtnaam {
+    width: 6.8vw;
+    text-align: center;
+    margin: 0;
+    margin-left: 3vw;
+    font-size: 1.5rem;
+}
+
+ ul {
+    list-style: none;
+}
+
+.price li {
+    float: left;
+    margin-left: 1vw;
+    font-size: 1.2rem;
+}
+
+.price {
+    padding: 0vw;
+    width: 45vw;
+    float: right;
+    margin-top: 5vh;
+}
+
+.gerecht {
+    width: 80vw;
+}
+
+
+.voorbeeld {
+    float: left;
+}
+
+body {margin: 0;}
+
+ul.topnav {
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #ffcf40;
+list-style-type:none;
+font-size:16px;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: black;
+	margin-left:8.5vw;
+    padding: 10px 1px;
+    text-decoration: none;
+	list-style-type:none;
+	transition: color 0.4s ease 0s;
+	transition-property: color;
+	transition-duration: 0.4s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+	text-shadow: 1px 1px ffcf40;
+	font-size: 20px;
+}
+
+.home {
+color:#ffcf40;
+font-size:50px;
+text-align:center;
+text-shadow: 2px 2px 2px black;
+}
+
+.home1 {
+	color:#ffcf40;
+	font-size:35px;
+text-align:center;
+	text-shadow: 2px 2px 2px black;
+
+}
+
+.rotateimg180 {
+  -webkit-transform:rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+.demo {
+  margin: 0 auto;
+  padding-top: 64px;
+  max-width: 640px;
+  width: 94%;
+}
+
+.demo h1 {
+  margin-top: 0;
+}
+
+.footer676767676 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #ffcf40;
+  text-align: center;
+  font-size:23px;
+}
+
+.text {
+	color: #ffcf40;
+	text-shadow: 1px 1px 1px black;
+	text-align:center;
+}
+
+.contact{
+	font-family: Montserrat, sans-serif;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute;
+	top:5vh; 
+	right:11vw;
+	color: black;
+	text-transform: uppercase;
+}
+
+.openingstijden {
+	font-family: Montserrat, sans-serif;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute;
+	top:3.5vh; 
+	left:8vw;
+	color:black;
+	text-transform: uppercase;
+	
+
+}
+
+.socialmedia {
+	font-family: Montserrat, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute; 
+	left: 50%; 
+	margin-left:-68px;
+	top:5vh;
+	color: black;
+}
+
+
+li a {
+	text-decoration: none;
+list-style-type: none;
+color:black;
+}
+
+.contact2 {
+	float:right;
+
+}
+
+ul.topnav li a:hover:not(.active) {background-color: red;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+} 
+
+.neemcontact { 
+	text-align: center;
+}
+
+section{
+  text-align:center;
+}
+
+.footer #button{
+	width:35px;
+	height:35px;
+	border: #cc0707 12px solid;
+	border-radius:35px;
+	margin:0 auto;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+	width:35px;
+	height:35px;
+	border: rgb(228, 175, 1) 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+	left:0;
+	position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	z-index:999;
+    display: none;
+}
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 14em;
+}
+.footer #container{
+	margin-top:5px;
+	width:100%;
+   height:200px;
+  position:relative;
+  top:0;
+  left:0;
+	background: #ffcf40;
+	text-align:center;
+}
+.footer #cont{
+  position:relative;
+  top:-45px;
+  right:190px;
+	width:150px;
+	height:auto;
+	margin:0 auto;
+}
+.footer_center{
+	width:500px;
+	float:left;
+  text-align:center;
+}
+.footer h3{
+	font-family: 'Helvetica';
+	font-size: 30px;
+	font-weight: 100;
+	margin-top:70px;
+	margin-left:40px;
+}
+
+}
+
+@media only screen and (max-width: 1199px) {
+        
+body {
+  background-image: url("https://images.wallpaperscraft.com/image/china_block_street_building_road_10772_1920x1080.jpg");
+}
+
+.submenu {
+    width: 90vw;
+    display: inline-block;
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+    float: left;
+    background-color: rgb(255, 207, 64,0.9);
+    border: 3px solid black;
+    border-radius: 2%;
+    font-family: Montserrat, sans-serif;
+}
+
+.submenu h1 {
+    margin: 0;
+    font-size: 2rem;
+    margin-left: 2vw;
+}
+
+.size {
+    list-style: none;
+    width: 65vw; 
+    float: right;
+}
+
+.size li {
+    float: left;
+    font-size: 1.2rem;
+    margin-right: 2vw;
+}
+
+.gerechtimg {
+    width: 120px;
+    height: 120px;
+    border: 3px solid black;
+    display:inline-block;
+    margin-left: 3vw;
+}
+
+.gerechtnaam {
+    width: 6.8vw;
+    text-align: center;
+    margin: 0;
+    margin-left: 3vw;
+    font-size: 1.5rem;
+}
+
+ ul {
+    list-style: none;
+}
+
+.price li {
+    float: left;
+    margin-left: 1vw;
+    font-size: 1.2rem;
+}
+
+.price {
+    padding: 0vw;
+    width: 45vw;
+    float: right;
+    margin-top: 5vh;
+}
+
+.gerecht {
+    width: 80vw;
+}
+
+
+.voorbeeld {
+    float: left;
+}
+
+body {margin: 0;}
+
+ul.topnav {
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #ffcf40;
+list-style-type:none;
+font-size:16px;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: black;
+	margin-left:8.5vw;
+    padding: 10px 1px;
+    text-decoration: none;
+	list-style-type:none;
+	transition: color 0.4s ease 0s;
+	transition-property: color;
+	transition-duration: 0.4s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+	text-shadow: 1px 1px ffcf40;
+	font-size: 20px;
+}
+
+.home {
+color:#ffcf40;
+font-size:50px;
+text-align:center;
+text-shadow: 2px 2px 2px black;
+}
+
+.home1 {
+	color:#ffcf40;
+	font-size:35px;
+text-align:center;
+	text-shadow: 2px 2px 2px black;
+
+}
+
+.rotateimg180 {
+  -webkit-transform:rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+.demo {
+  margin: 0 auto;
+  padding-top: 64px;
+  max-width: 640px;
+  width: 94%;
+}
+
+.demo h1 {
+  margin-top: 0;
+}
+
+.footer676767676 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #ffcf40;
+  text-align: center;
+  font-size:23px;
+}
+
+.text {
+	color: #ffcf40;
+	text-shadow: 1px 1px 1px black;
+	text-align:center;
+}
+
+.contact{
+	font-family: Montserrat, sans-serif;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute;
+	top:5vh; 
+	right:11vw;
+	color: black;
+	text-transform: uppercase;
+}
+
+.openingstijden {
+	font-family: Montserrat, sans-serif;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute;
+	top:3.5vh; 
+	left:8vw;
+	color:black;
+	text-transform: uppercase;
+	
+
+}
+
+.socialmedia {
+	font-family: Montserrat, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute; 
+	left: 50%; 
+	margin-left:-68px;
+	top:5vh;
+	color: black;
+}
+
+
+li a {
+	text-decoration: none;
+list-style-type: none;
+color:black;
+}
+
+.contact2 {
+	float:right;
+
+}
+
+ul.topnav li a:hover:not(.active) {background-color: red;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+} 
+
+.neemcontact { 
+	text-align: center;
+}
+
+section{
+  text-align:center;
+}
+
+.footer #button{
+	width:35px;
+	height:35px;
+	border: #cc0707 12px solid;
+	border-radius:35px;
+	margin:0 auto;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+	width:35px;
+	height:35px;
+	border: rgb(228, 175, 1) 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+	left:0;
+	position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	z-index:999;
+    display: none;
+}
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 14em;
+}
+.footer #container{
+	margin-top:5px;
+	width:100%;
+   height:200px;
+  position:relative;
+  top:0;
+  left:0;
+	background: #ffcf40;
+	text-align:center;
+}
+.footer #cont{
+  position:relative;
+  top:-45px;
+  right:190px;
+	width:150px;
+	height:auto;
+	margin:0 auto;
+}
+.footer_center{
+	width:500px;
+	float:left;
+  text-align:center;
+}
+.footer h3{
+	font-family: 'Helvetica';
+	font-size: 30px;
+	font-weight: 100;
+	margin-top:70px;
+	margin-left:40px;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+    
+body {
+  background-image: url("https://images.wallpaperscraft.com/image/china_block_street_building_road_10772_1920x1080.jpg");
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.submenu {
+    width: 43vw;
+    display: inline-block;
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+    float: left;
+    background-color: rgb(255, 207, 64,0.9);
+    height: 40vh;
+    overflow: auto;
+    border: 3px solid black;
+    border-radius: 2%;
+    font-family: Montserrat, sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.submenu h1 {
+    margin: 0;
+    font-size: 2rem;
+    margin-left: 2vw;
+}
+
+.size {
+    list-style: none;
+    float: right;
+    width: 25vw;
+    margin-right: 3vw;
+}
+
+.size li {
+    float: left;
+    margin-left: 3.7vw;
+    font-size: 1.6rem;
+}
+
+.gerechtimg {
+    width: 130px;
+    height: 130px;
+    border: 3px solid black;
+    display:inline-block;
+    margin-left: 3vw;
+}
+
+.gerechtnaam {
+    width: 6.8vw;
+    text-align: center;
+    margin: 0;
+    margin-left: 3vw;
+    font-size: 1.5rem;
+}
+
+ ul {
+    list-style: none;
+}
+
+.price li {
+    float: left;
+    margin-left: 4vw;
+    font-size: 1.5rem;
+}
+
+.price {
+    width: 25vw;
+    float: right;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.gerecht {
+    width: 40vw;
+}
+
+
+.voorbeeld {
+    float: left;
+}
+
+body {margin: 0;}
+
+ul.topnav {
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #ffcf40;
+list-style-type:none;
+font-size:16px;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: black;
+	margin-left:8.5vw;
+    padding: 10px 1px;
+    text-decoration: none;
+	list-style-type:none;
+	transition: color 0.4s ease 0s;
+	transition-property: color;
+	transition-duration: 0.4s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+	text-shadow: 1px 1px ffcf40;
+	font-size: 20px;
+}
+
+.home {
+color:#ffcf40;
+font-size:50px;
+text-align:center;
+text-shadow: 2px 2px 2px black;
+}
+
+.home1 {
+	color:#ffcf40;
+	font-size:35px;
+text-align:center;
+	text-shadow: 2px 2px 2px black;
+
+}
+
+.rotateimg180 {
+  -webkit-transform:rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+.demo {
+  margin: 0 auto;
+  padding-top: 64px;
+  max-width: 640px;
+  width: 94%;
+}
+
+.demo h1 {
+  margin-top: 0;
+}
+
+.footer676767676 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #ffcf40;
+  text-align: center;
+  font-size:23px;
+}
+
+.text {
+	color: #ffcf40;
+	text-shadow: 1px 1px 1px black;
+	text-align:center;
+}
+
+.contact{
+	font-family: Montserrat, sans-serif;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute;
+	top:5vh; 
+	right:11vw;
+	color: black;
+	text-transform: uppercase;
+}
+
+.openingstijden {
+	font-family: Montserrat, sans-serif;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute;
+	top:3.5vh; 
+	left:8vw;
+	color:black;
+	text-transform: uppercase;
+	
+
+}
+
+.socialmedia {
+	font-family: Montserrat, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px ffcf40;
+	font-size:16px; 
+	position: absolute; 
+	left: 50%; 
+	margin-left:-68px;
+	top:5vh;
+	color: black;
+}
+
+
+li a {
+	text-decoration: none;
+list-style-type: none;
+color:black;
+}
+
+.contact2 {
+	float:right;
+
+}
+
+ul.topnav li a:hover:not(.active) {background-color: red;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+} 
+
+.neemcontact { 
+	text-align: center;
+}
+
+section{
+  text-align:center;
+}
+.footer #button{
+	width:35px;
+	height:35px;
+	border: #cc0707 12px solid;
+	border-radius:35px;
+	margin:0 auto;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+	width:35px;
+	height:35px;
+	border: rgb(228, 175, 1) 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+	left:0;
+	position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	z-index:999;
+}
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 14em;
+}
+.footer #container{
+	margin-top:5px;
+	width:100%;
+   height:200px;
+  position:relative;
+  top:0;
+  left:0;
+	background: #ffcf40;
+	text-align:center;
+}
+.footer #cont{
+  position:relative;
+  top:-45px;
+  right:190px;
+	width:150px;
+	height:auto;
+	margin:0 auto;
+}
+.footer_center{
+	width:500px;
+	float:left;
+  text-align:center;
+}
+.footer h3{
+	font-family: 'Helvetica';
+	font-size: 30px;
+	font-weight: 100;
+	margin-top:70px;
+	margin-left:40px;
+}
+}

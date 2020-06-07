@@ -1,0 +1,133 @@
+h1 {
+		color: black;
+		text-align: center;
+}
+
+h3 {
+	color: black;
+}
+
+p{
+	color: black;
+	font-family:;
+	font-size: 40px;
+	text-align: center;
+}
+
+	body {
+background: rgb(14,103,139);
+background: linear-gradient(90deg, rgba(14,103,139,1) 15%, rgba(12,77,165,1) 48%, rgba(0,212,255,1) 93%);
+}
+
+h1 {
+  background-color:;
+}
+
+h3 {
+	color: red;
+}
+
+div {
+  background-color: #d5f4e6;
+}
+
+span {
+  background-color: #f18973;
+}
+
+h1.intro {
+  color: black;
+}
+
+p.important {
+  color: yellow;
+}
+
+li{
+	width: 10vw;
+	position: relative;
+	left: -33vw;
+	top: -2vw;
+	float: left;
+}
+
+ ul{
+	 list-style: none;
+ }
+ 
+ li a{
+	 text-decoration: none;
+ }
+ 
+ #item-hamburgermenu {
+	 font-size: 1.5rem;
+	 position: fixed;
+	 top: -10vh;
+	 left: 2vw;
+ }
+ 
+ #item-hamburgermenu ul {
+	 position: fixed;
+	 top: 4vh;
+	 right: 30vw;
+ }
+ 
+ a:link, a:visited, a:active{
+    color: black;
+	font-family:
+}
+ a:hover {
+    color:#fc0303;
+}
+
+a.b {
+  font-family: Arial Black, Helvetica, sans-serif;
+  font-size: 17px;
+}
+.termen1{
+ float:left;
+ margin-left: 250px;
+}
+.termen {
+ float:left;
+ padding-left: 400px;
+}
+.blok1 {
+	margin-left:100px;
+	margin-top: 60px;
+    position: absolute;
+	height: 400px;
+	width: 350px;
+	border: solid 10px;
+	border-color: black;
+	background-color: red;
+}
+.blok2{
+	margin-left:560px;
+	margin-top: 60px;
+    position: absolute;
+	height: 400px;
+	width: 350px;
+	border: solid 10px;
+	border-color: black;
+	background-color: red;
+}
+.blok3{
+	margin-left:1030px;
+	margin-top: 60px;
+    position: absolute;
+	height: 400px;
+	width: 350px;
+	border: solid 10px;
+	border-color: black;
+	background-color: red;
+}
+.tekst{
+  font-size:13px;
+}
+.tekst1{
+	font-size:13px;
+}
+.tekst2{
+	font-size:13px;
+}

@@ -1,0 +1,313 @@
+ @charset "UTF-8";
+ html {
+     margin: 0px; 
+   background: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+ 
+ body {
+    
+ }
+ 
+ 
+ span {
+    text-align: center;
+}
+.heada {
+position: absolute;
+top: 0vh;
+left: -10vw;
+}
+.head {
+    
+    font-family: "brandon-grotesque", Arial ,sans-serif;
+}
+
+.head h1 {
+    margin: 0;
+}
+
+.head nav {
+    float: right;
+}
+#example1 {
+background: rgb(244,178,11);
+background: linear-gradient(90deg, rgba(244,178,11,1) 16%, rgba(27,103,221,1) 50%, rgba(252,202,248,1) 80%);
+background-clip: border-box;  
+}
+a:link, a:visited, a:active{
+color: white;
+}
+a:hover {
+color:#fc0303;
+}
+    #example2 {
+    padding: 20px;
+    background: rgb(166, 17, 224);
+    background-clip: border-box;
+    text-align: center;
+}
+#example2 a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    background-color: #6598e6;
+}
+h1.intro {
+padding:100px;
+font-size: 70px;
+color: rgb(166, 30, 219);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+}	
+p.important {
+position: absolute;
+left: 55vw;
+top: 53vh;
+font-size: 60px;
+font-family: 'Source Sans Pro', sans-serif;
+color: crimson;
+}
+
+#tekst {
+    text-align: center; 
+    text-align: justify;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    font-family: Arial Black, Helvetica, sans-serif;
+
+}
+
+#tekstje {
+    text-align: center; 
+    text-align: justify;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 0vw;
+    font-family: Arial Black, Helvetica, sans-serif;
+}
+
+.plaatjes {
+  margin-right: 20px;
+  margin-left: 5vw;
+}
+
+#woorden {
+    margin-bottom: 2vw;
+    font-family: Arial Black, Helvetica, sans-serif;
+    
+}
+.center {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+
+}
+#woord {
+    text-align: center;
+    font-size: 30px;
+    margin-top: -27vw;
+    margin-left: 10vw;
+    font-family: initial; 
+    color: aquamarine;
+   
+    
+}
+@media only screen and (max-width: 767,9) {
+    #bigscreen {
+        visibility: hidden;
+    }
+} 
+
+@media only screen and (min-width: 767,9) {
+    #mobile { 
+        visibility: hidden;
+    }
+}
+   
+
+    @media only screen and (min-width: 1025px) {
+        #telefoon {display:none;}
+        #tablet {display:none;}
+        #laptop {display:block;}
+    }
+        
+   #inleidding{ 
+margin-bottom: 1vw;
+}
+.Media {
+margin-left:9vw;
+color: blueviolet;
+margin-top: -11vw;
+font-size: 30px;
+}
+    
+.img1 { 
+margin-left: 2vw;
+margin-bottom: 60vw;
+}
+
+.img2 { 
+    margin-left: 2vw;
+    margin-bottom: 60vw;
+}
+ 
+.img3 { 
+    margin-left: 2vw;
+    margin-bottom: 60vw;
+}
+.plaatjess {
+    margin-top:4vh;
+    margin-left:4vw;
+    text-align: right;
+   
+
+}
+.plaatjes{
+    margin-top: -2vh;
+    text-align: left;
+    margin-left:2vw;
+}
+
+#Contact {
+    margin-top:-4vw;
+    margin-left:76vw;
+    font-size:35px;
+    color: rgb(235, 136, 23);
+    
+}
+.img8{
+    margin-top:14vh;
+    margin-left:11vw;
+}
+.img7{
+    margin-top:27vh;
+    margin-left:12.4vw;
+}
+
+.zudje {
+margin-top: -60vh;
+margin-left: 82vw;
+}
+
+.inleidings{
+    font-family: fantasy,sans-serif;
+    font-size: 30px;
+    color: rgb(44, 44, 243);
+    margin-top: 30px;
+    margin-left:2vw;
+    margin-top:20vh;
+}
+
+
+
+.plaatjesss{
+    margin-top: 4vh;
+    margin-left: 32vw;
+    margin-right: -29vw;
+    text-align:left;
+}
+
+.Contacts{ 
+    text-align: center;
+    margin-left: 0vw;
+    margin-top: -40vh;
+    font-size:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #eb243f;
+}
+
+.telefoon { 
+    text-align: center;
+    margin-left: 0vw;
+    margin-top: 2vh;
+    font-size:25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.email{
+    text-align: center;
+    margin-left: 0vw;
+    margin-top: 0vh;
+    font-size:25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.adres {
+    text-align: center;
+    margin-left: 0vw;
+    margin-top: 2vh;
+    font-size:25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.tekstjje {
+text-align: center;
+margin-top: -10vh;
+}
+.inleiddingg22 {
+    text-align: center;
+    margin-top: 2vh;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 900;
+     color: #eb243f;
+}
+
+.zuddje {
+   margin-top:0vh;
+   text-align: right;
+}
+.inleidings2 {
+    margin-top: -44vh;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #dd257b;
+}
+.eeylan {
+    text-align: center;
+    margin-top: -0vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: #eb243f;
+
+}
+
+
+
+
+.inleidings3462s {
+    font-size: 25px;
+    text-align: right;
+    color: #a75feb;
+    margin-right:80vw;
+    margin-top:-42vh;
+   
+}
+
+.zudjdj2e{
+margin-left:75vw;
+margin-top:4vh;
+}
+
+.woorddrden{
+    font-size:18px;
+    font-weight: 800;
+    margin-left:2vw;
+}
+.tekst34d {
+    margin-bottom:2vh;
+    font-size:18px;
+    font-weight: 800;
+    margin-left:2vw;
+}
+.zudd12je {
+margin-top:-8vh;
+}

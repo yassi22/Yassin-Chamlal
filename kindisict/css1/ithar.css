@@ -1,0 +1,141 @@
+html, 
+
+body 
+	
+
+
+
+
+body {
+    background: rgb(14,103,139);
+    background: linear-gradient(90deg, 
+rgba(14,103,139,1) 15%, rgba(12,77,165,1) 48%,
+    rgba(0,212,255,1) 93%);
+}
+
+ #item-hamburgermenu {
+	 font-size: 1.5rem;
+	 position: fixed;
+	 top: -10vh;
+	 left: 2vw;
+ }
+ 
+ #item-hamburgermenu ul {
+	 position: fixed;
+	 top: 4vh;
+	 right: 30vw;
+ }
+ 
+ .imge {
+	 position: fixed;
+	 top: 6vw;
+	 
+ }
+ 
+ 
+ 
+.blok {
+     background-color: red;
+     width: 400px;
+     border: 10px solid black;
+     padding: 50px;
+     margin: 20px;
+     font-family: Arial Black, Helvetica, sans-serif;
+     font-size: 12px;
+     position: fixed;
+     left: 6vw;
+     top: 15vw;
+}
+.blok2 {
+     background-color: red;
+     width: 400px;
+     border: 10px solid black;
+     padding: 50px;
+     margin: 20px;
+     font-family: Arial Black, Helvetica, sans-serif;
+     font-size: 12px;
+     position: fixed;
+     left: 35vw;
+     top: 15vw;
+}
+.blok3 {
+     background-color: red;
+     width: 400px;
+     border: 10px solid black;
+     padding: 50px;
+     margin: 20px;
+     font-family: Arial Black, Helvetica, sans-serif;
+     font-size: 12px;
+     position: fixed;
+     left: 64vw;
+     top: 15vw;
+}
+
+.dos {
+	margin: 20px;
+	padding: 50px;
+	font-family: Arial Black, Helvetica, sans-serif;
+	position: fixed;
+	left: 13.5vw;
+	top: 9.5vw;
+}
+
+.Router {
+	margin: 20px;
+	padding: 50px;
+	font-family: Arial Black, Helvetica, sans-serif;
+	position: fixed;
+	left: 41.5vw;
+	top: 9.5vw;
+}
+
+.vpn {
+	margin: 20px;
+	padding: 50px;
+	font-family: Arial Black, Helvetica, sans-serif;
+	position: fixed;
+	left: 72vw;
+	top: 9.5vw;
+}
+
+.intro {
+	position: fixed;
+	bottom: 26vw;
+	left: 44vw;
+}
+
+
+li{
+	width: 10vw;
+	position: relative;
+	left: -33vw;
+	top: -2vw;
+	float: left;
+}
+
+ ul{
+	 list-style: none;
+ }
+ 
+ li a{
+	 text-decoration: none;
+ }
+ 
+ p{
+	color: black;
+	font-family:;
+	font-size: 40px;
+	text-align: center;
+}
+
+a:link, a:visited, a:active {
+    color:black;
+}
+ a:hover {
+    color:#fc0303;
+}
+
+a.b {
+  font-family: Arial Black, Helvetica, sans-serif;
+  font-size: 17px;
+}
