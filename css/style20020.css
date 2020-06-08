@@ -12,7 +12,7 @@ scroll-behavior: smooth;
 #grid-container { 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4,25vh);
+    grid-template-rows: repeat(4,25vh); 
 }
 
 
@@ -43,7 +43,8 @@ li {
     height:100px;
     width: 200px; 
     border-radius: 4%; 
-    float:left;
+    float:left; 
+    
 } 
 
 
@@ -284,7 +285,7 @@ margin-left:44vw;
 
 
 .cool2 { 
-    height:450px;
+    height:475px;
      width: 450px; 
      border:1px solid #5623E2; 
      border-radius: 10px;  
@@ -303,7 +304,8 @@ margin-left:44vw;
 }  
 .forms2 { 
     width: 300px; 
-    height:45px; 
+   font-size:1.2rem; 
+   padding:0.6em; 
     margin-left:1vw;  
     background-color: #161617; 
     color: white; 
@@ -321,15 +323,10 @@ color: #B43387;
 }  
 
 .girdmeni  { 
-display: grid; 
-grid-column-start:6; 
-grid-column-end:4;
-grid-row-start:1;
-grid-row-end:1; 
-justify-self: end; 
-align-self: start;  
+float:right;
+} 
 
-}
+
 
  
 
@@ -543,6 +540,10 @@ height:450px;
        grid-row-start:1;
        grid-row-end:1;
        justify-self: start; 
+}  
+
+.test2{ 
+    display:none;
 } 
 } 
 
@@ -574,7 +575,11 @@ display:none;
 
  .menuknop { 
      display:none;
- } 
+ }  
+
+.test { 
+    display:none; 
+}
 }  
 
 
@@ -631,7 +636,42 @@ display:none;
     justify-self: end;   
     display:none;
 } 
-
 }
+
+@media  only screen and (min-width: 415px) {   
+.mijnhoofd2 { 
+    display:none;
+} 
+.skill23 { 
+    display:none;
+} 
+.test { 
+    display:none;
+} 
+
+.teskt25 { 
+    display:none;
+}   
+}
+
+@media  only screen and (min-width: 414px) { 
+    .test { 
+        display:block; 
+    } 
+} 
+ 
+
+@media  only screen and (min-width: 360px) and (max-width:1080px) { 
+.test2 { 
+    display:none;  
+} 
+
+}  
+@media  only screen and (min-width: 415px) and (max-width:1080px) { 
+
+.menuknop{ 
+    display:none;
+} 
+} 
 
 
